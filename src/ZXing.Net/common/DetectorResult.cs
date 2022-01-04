@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary>
    /// <p>Encapsulates the result of detecting a barcode in an image. This includes the raw

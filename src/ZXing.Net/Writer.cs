@@ -16,9 +16,9 @@
 
 using System;
 using System.Collections.Generic;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary> The base class for all objects which encode/generate a barcode image.
    /// 

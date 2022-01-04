@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// 
@@ -29,7 +29,7 @@ namespace ZXing.PDF417.Internal
       private static readonly float[][] RATIOS_TABLE; // = new float[PDF417Common.SYMBOL_TABLE.Length][PDF417Common.BARS_IN_MODULE];
 
       /// <summary>
-      /// Initializes the <see cref="ZXing.PDF417.Internal.PDF417CodewordDecoder"/> class &amp; Pre-computes the symbol ratio table.
+      /// Initializes the <see cref="Auki.Barcode.PDF417.Internal.PDF417CodewordDecoder"/> class &amp; Pre-computes the symbol ratio table.
       /// </summary>
       static PDF417CodewordDecoder()
       {
@@ -82,7 +82,7 @@ namespace ZXing.PDF417.Internal
       /// <param name="moduleBitCount">Module bit count.</param>
       private static int[] sampleBitCounts(int[] moduleBitCount)
       {
-         float bitCountSum = ZXing.Common.Detector.MathUtils.sum(moduleBitCount);
+         float bitCountSum = Auki.Barcode.Common.Detector.MathUtils.sum(moduleBitCount);
          int[] result = new int[PDF417Common.BARS_IN_MODULE];
          int bitCountIndex = 0;
          int sumPreviousBits = 0;
@@ -137,7 +137,7 @@ namespace ZXing.PDF417.Internal
       /// <param name="moduleBitCount">Module bit count.</param>
       private static int getClosestDecodedValue(int[] moduleBitCount)
       {
-         int bitCountSum = ZXing.Common.Detector.MathUtils.sum(moduleBitCount);
+         int bitCountSum = Auki.Barcode.Common.Detector.MathUtils.sum(moduleBitCount);
          float[] bitCountRatios = new float[PDF417Common.BARS_IN_MODULE];
          if (bitCountSum > 1)
          {

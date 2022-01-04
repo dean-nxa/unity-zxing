@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// A wrapper implementation of {@link LuminanceSource} which inverts the luminances it returns -- black becomes

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;  
 using System.Collections;  
-using ZXing; 
-using ZXing.QrCode;  
+using Auki.Barcode; 
+using Auki.Barcode.QrCode;  
 using UnityEngine.UI;  
 
 public class CreateQRCode : MonoBehaviour  

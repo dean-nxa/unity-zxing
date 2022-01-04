@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary>
    /// A simple, fast array of bits, represented compactly by an array of ints internally.

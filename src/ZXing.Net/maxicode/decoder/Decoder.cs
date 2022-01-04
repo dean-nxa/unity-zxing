@@ -16,10 +16,10 @@
 
 using System;
 using System.Collections.Generic;
-using ZXing.Common;
-using ZXing.Common.ReedSolomon;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.ReedSolomon;
 
-namespace ZXing.Maxicode.Internal
+namespace Auki.Barcode.Maxicode.Internal
 {
    /// <summary>
    /// <p>The main class which implements MaxiCode decoding -- as opposed to locating and extracting

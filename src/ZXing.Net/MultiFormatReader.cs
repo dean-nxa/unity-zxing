@@ -16,15 +16,15 @@
 
 using System.Collections.Generic;
 
-using ZXing.Aztec;
-using ZXing.Datamatrix;
-using ZXing.IMB;
-using ZXing.Maxicode;
-using ZXing.OneD;
-using ZXing.PDF417;
-using ZXing.QrCode;
+using Auki.Barcode.Aztec;
+using Auki.Barcode.Datamatrix;
+using Auki.Barcode.IMB;
+using Auki.Barcode.Maxicode;
+using Auki.Barcode.OneD;
+using Auki.Barcode.PDF417;
+using Auki.Barcode.QrCode;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// MultiFormatReader is a convenience class and the main entry point into the library for most uses.

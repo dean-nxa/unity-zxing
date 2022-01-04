@@ -18,7 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Partially implements the iCalendar format's "VEVENT" format for specifying a
@@ -30,7 +30,7 @@ namespace ZXing.Client.Result
    /// </author>
    sealed class VEventResultParser : ResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null)

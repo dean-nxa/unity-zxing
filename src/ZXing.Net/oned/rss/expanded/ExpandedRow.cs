@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.OneD.RSS.Expanded
+namespace Auki.Barcode.OneD.RSS.Expanded
 {
    /// <summary>
    /// One row of an RSS Expanded Stacked symbol, consisting of 1+ expanded pairs.

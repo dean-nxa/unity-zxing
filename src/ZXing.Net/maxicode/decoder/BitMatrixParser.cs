@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Maxicode.Internal
+namespace Auki.Barcode.Maxicode.Internal
 {
    /// <summary>
    /// <author>mike32767</author>

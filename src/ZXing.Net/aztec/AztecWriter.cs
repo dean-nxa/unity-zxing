@@ -18,10 +18,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ZXing.Aztec.Internal;
-using ZXing.Common;
+using Auki.Barcode.Aztec.Internal;
+using Auki.Barcode.Common;
 
-namespace ZXing.Aztec
+namespace Auki.Barcode.Aztec
 {
    /// <summary>
    /// Renders an Aztec code as a <see cref="BitMatrix" />

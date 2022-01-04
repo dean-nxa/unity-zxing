@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Simply encapsulates a width and height.

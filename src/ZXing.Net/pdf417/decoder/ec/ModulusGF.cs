@@ -16,11 +16,11 @@
 
 using System;
 
-namespace ZXing.PDF417.Internal.EC
+namespace Auki.Barcode.PDF417.Internal.EC
 {
    /// <summary>
    /// <p>A field based on powers of a generator integer, modulo some modulus.</p>
-    /// <see cref="ZXing.Common.ReedSolomon.GenericGFPoly"/>
+    /// <see cref="Auki.Barcode.Common.ReedSolomon.GenericGFPoly"/>
    /// </summary>
    /// <author>Sean Owen</author>
    internal sealed class ModulusGF

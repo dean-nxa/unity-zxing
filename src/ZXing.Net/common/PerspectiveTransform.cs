@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary> <p>This class implements a perspective transform in two dimensions. Given four source and four
    /// destination points, it will compute the transformation implied between them. The code is based

@@ -18,7 +18,7 @@ using System;
 using System.Globalization;
 using System.Text;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Represents a parsed result that encodes a geographic coordinate, with latitude, longitude and altitude.

@@ -16,11 +16,11 @@
 
 using System;
 
-using ZXing.Common;
-using ZXing.Common.Detector;
-using ZXing.Common.ReedSolomon;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.Detector;
+using Auki.Barcode.Common.ReedSolomon;
 
-namespace ZXing.Aztec.Internal
+namespace Auki.Barcode.Aztec.Internal
 {
    /// <summary>
    /// Encapsulates logic that can detect an Aztec Code in an image, even if the Aztec Code

@@ -16,7 +16,7 @@
 
 using System.Text;
 
-namespace ZXing.Datamatrix.Encoder
+namespace Auki.Barcode.Datamatrix.Encoder
 {
    internal sealed class X12Encoder : C40Encoder
    {

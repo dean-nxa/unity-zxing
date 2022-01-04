@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// These are a set of hints that you may pass to Writers to specify their behavior.
@@ -43,11 +43,11 @@ namespace ZXing
       /// <summary>
       /// Specifies what degree of error correction to use, for example in QR Codes.
       /// Type depends on the encoder. For example for QR codes it's type
-      /// <see cref="ZXing.QrCode.Internal.ErrorCorrectionLevel" />
+      /// <see cref="Auki.Barcode.QrCode.Internal.ErrorCorrectionLevel" />
       /// For Aztec it is of type <see cref="System.Int32" />, representing the minimal percentage of error correction words. 
       /// In all cases, it can also be a <see cref="System.String" /> representation of the desired value as well.
       /// Note: an Aztec symbol should have a minimum of 25% EC words.
-      /// For PDF417 it is of type <see cref="ZXing.PDF417.Internal.PDF417ErrorCorrectionLevel"/> or <see cref="System.Int32" /> (between 0 and 8),
+      /// For PDF417 it is of type <see cref="Auki.Barcode.PDF417.Internal.PDF417ErrorCorrectionLevel"/> or <see cref="System.Int32" /> (between 0 and 8),
       /// </summary>
       ERROR_CORRECTION,
 
@@ -74,14 +74,14 @@ namespace ZXing
 
       /// <summary>
       /// Specifies what compaction mode to use for PDF417.
-      /// type: <see cref="ZXing.PDF417.Internal.Compaction" /> or <see cref="System.String" /> value of one of its
+      /// type: <see cref="Auki.Barcode.PDF417.Internal.Compaction" /> or <see cref="System.String" /> value of one of its
       /// enum values
       /// </summary>
       PDF417_COMPACTION,
 
       /// <summary>
       /// Specifies the minimum and maximum number of rows and columns for PDF417.
-      /// type: <see cref="ZXing.PDF417.Internal.Dimensions" />
+      /// type: <see cref="Auki.Barcode.PDF417.Internal.Dimensions" />
       /// </summary>
       PDF417_DIMENSIONS,
 
@@ -97,17 +97,17 @@ namespace ZXing
       DISABLE_ECI,
 
       /// <summary>
-      /// Specifies the matrix shape for Data Matrix (type <see cref="ZXing.Datamatrix.Encoder.SymbolShapeHint"/>)
+      /// Specifies the matrix shape for Data Matrix (type <see cref="Auki.Barcode.Datamatrix.Encoder.SymbolShapeHint"/>)
       /// </summary>
       DATA_MATRIX_SHAPE,
 
       /// <summary>
-      /// Specifies a minimum barcode size (type <see cref="ZXing.Dimension"/>). Only applicable to Data Matrix now.
+      /// Specifies a minimum barcode size (type <see cref="Auki.Barcode.Dimension"/>). Only applicable to Data Matrix now.
       /// </summary>
       MIN_SIZE,
 
       /// <summary>
-      /// Specifies a maximum barcode size (type <see cref="ZXing.Dimension"/>). Only applicable to Data Matrix now.
+      /// Specifies a maximum barcode size (type <see cref="Auki.Barcode.Dimension"/>). Only applicable to Data Matrix now.
       /// </summary>
       MAX_SIZE,
 
@@ -117,7 +117,7 @@ namespace ZXing
       CODE128_FORCE_CODESET_B,
 
       /// <summary>
-      /// Specifies the default encodation for Data Matrix (type <see cref="ZXing.Datamatrix.Encoder.Encodation"/>)
+      /// Specifies the default encodation for Data Matrix (type <see cref="Auki.Barcode.Datamatrix.Encoder.Encodation"/>)
       /// Make sure that the content fits into the encodation value, otherwise there will be an exception thrown.
       /// standard value: Encodation.ASCII
       /// </summary>

@@ -18,7 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> <p>Abstract class representing the result of decoding a barcode, as more than
    /// a String -- as some type of structured data. This might be a subclass which represents
@@ -72,14 +72,14 @@ namespace ZXing.Client.Result
       /// </summary>
       /// <param name="theResult">the raw <see cref="Result"/> to parse</param>
       /// <returns><see cref="ParsedResult" /> encapsulating the parsing result</returns>
-      public abstract ParsedResult parse(ZXing.Result theResult);
+      public abstract ParsedResult parse(Auki.Barcode.Result theResult);
 
       /// <summary>
       /// Parses the result.
       /// </summary>
       /// <param name="theResult">The result.</param>
       /// <returns></returns>
-      public static ParsedResult parseResult(ZXing.Result theResult)
+      public static ParsedResult parseResult(Auki.Barcode.Result theResult)
       {
          foreach (var parser in PARSERS)
          {

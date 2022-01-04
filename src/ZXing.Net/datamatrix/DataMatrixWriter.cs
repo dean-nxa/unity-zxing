@@ -17,11 +17,11 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Datamatrix.Encoder;
-using ZXing.QrCode.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.Datamatrix.Encoder;
+using Auki.Barcode.QrCode.Internal;
 
-namespace ZXing.Datamatrix
+namespace Auki.Barcode.Datamatrix
 {
    /// <summary>
    /// This object renders a Data Matrix code as a BitMatrix 2D array of greyscale values.

@@ -16,9 +16,9 @@
 
 using System;
 
-using ZXing.Common.Detector;
+using Auki.Barcode.Common.Detector;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Encapsulates a point of interest in an image containing a barcode. Typically, this

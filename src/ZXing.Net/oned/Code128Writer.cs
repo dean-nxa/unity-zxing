@@ -16,9 +16,9 @@
 
 using System;
 using System.Collections.Generic;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    /// This object renders a CODE128 code as a <see cref="BitMatrix" />.

@@ -17,7 +17,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Implements the "MATMSG" email message entry format.
@@ -34,7 +34,7 @@ namespace ZXing.Client.Result
 );
 #endif
 
-      public override ParsedResult parse(ZXing.Result result)
+      public override ParsedResult parse(Auki.Barcode.Result result)
       {
          var rawText = result.Text;
          if (!rawText.StartsWith("MATMSG:"))

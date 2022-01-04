@@ -18,9 +18,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    ///   <p>Implements decoding of the UPC-A format.</p>

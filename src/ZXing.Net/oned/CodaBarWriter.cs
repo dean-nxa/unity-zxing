@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    /// This class renders CodaBar as <see cref="bool" />[].

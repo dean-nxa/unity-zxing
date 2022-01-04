@@ -14,14 +14,14 @@
 * limitations under the License.
 */
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary> This class implements a local thresholding algorithm, which while slower than the
    /// GlobalHistogramBinarizer, is fairly efficient for what it does. It is designed for
    /// high frequency images of barcodes with black data on white backgrounds. For this application,
    /// it does a much better job than a global blackpoint with severe shadows and gradients.
    /// However it tends to produce artifacts on lower frequency images and is therefore not
-   /// a good general purpose binarizer for uses outside ZXing.
+   /// a good general purpose binarizer for uses outside Auki.Barcode.
    /// 
    /// This class extends GlobalHistogramBinarizer, using the older histogram approach for 1D readers,
    /// and the newer local approach for 2D readers. 1D decoding using a per-row histogram is already

@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2012 ZXing.Net authors
+ * Copyright 2012 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-using ZXing.Rendering;
+using Auki.Barcode.Rendering;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// A smart class to encode some content to a barcode image

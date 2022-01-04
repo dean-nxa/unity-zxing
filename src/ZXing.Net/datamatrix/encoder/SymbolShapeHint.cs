@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.Datamatrix.Encoder
+namespace Auki.Barcode.Datamatrix.Encoder
 {
    /// <summary>
    /// Enumeration for DataMatrix symbol shape hint. It can be used to force square or rectangular

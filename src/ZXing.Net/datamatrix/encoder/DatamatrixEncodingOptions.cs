@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2013 ZXing.Net authors
+ * Copyright 2013 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 
 using System;
 
-using ZXing.Common;
-using ZXing.Datamatrix.Encoder;
+using Auki.Barcode.Common;
+using Auki.Barcode.Datamatrix.Encoder;
 
-namespace ZXing.Datamatrix
+namespace Auki.Barcode.Datamatrix
 {
    /// <summary>
    /// The class holds the available options for the DatamatrixWriter

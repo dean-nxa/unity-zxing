@@ -16,10 +16,10 @@
 
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Maxicode.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.Maxicode.Internal;
 
-namespace ZXing.Maxicode
+namespace Auki.Barcode.Maxicode
 {
    /// <summary>
    /// This implementation can detect and decode a MaxiCode in an image.
@@ -93,8 +93,8 @@ namespace ZXing.Maxicode
       /// around it. This is a specialized method that works exceptionally fast in this special
       /// case.
       ///
-      /// <seealso cref="ZXing.Datamatrix.DataMatrixReader.extractPureBits(BitMatrix)" />
-      /// <seealso cref="ZXing.QrCode.QRCodeReader.extractPureBits(BitMatrix)" />
+      /// <seealso cref="Auki.Barcode.Datamatrix.DataMatrixReader.extractPureBits(BitMatrix)" />
+      /// <seealso cref="Auki.Barcode.QrCode.QRCodeReader.extractPureBits(BitMatrix)" />
       /// </summary>
       private static BitMatrix extractPureBits(BitMatrix image)
       {

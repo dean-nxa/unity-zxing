@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.OneD.RSS
+namespace Auki.Barcode.OneD.RSS
 {
    /// <summary>
    /// Superclass of <see cref="OneDReader" /> implementations that read barcodes in the RSS family of formats.
@@ -133,7 +133,7 @@ namespace ZXing.OneD.RSS
       [Obsolete]
       protected static int count(int[] array)
       {
-         return ZXing.Common.Detector.MathUtils.sum(array);
+         return Auki.Barcode.Common.Detector.MathUtils.sum(array);
       }
 
       /// <summary>

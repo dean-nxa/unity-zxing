@@ -17,7 +17,7 @@
 using System;
 using System.Text;
 
-namespace ZXing.Datamatrix.Encoder
+namespace Auki.Barcode.Datamatrix.Encoder
 {
    internal sealed class EdifactEncoder : Encoder
    {

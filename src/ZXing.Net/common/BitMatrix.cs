@@ -17,7 +17,7 @@
 using System;
 using System.Text;
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary>
    ///   <p>Represents a 2D matrix of bits. In function arguments below, and throughout the common

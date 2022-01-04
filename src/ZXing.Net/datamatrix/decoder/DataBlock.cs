@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Datamatrix.Internal
+namespace Auki.Barcode.Datamatrix.Internal
 {
    /// <summary>
    /// <p>Encapsulates a block of data within a Data Matrix Code. Data Matrix Codes may split their data into

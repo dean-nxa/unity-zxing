@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Parses a "tel:" URI result, which specifies a phone number.
@@ -27,7 +27,7 @@ namespace ZXing.Client.Result
    /// </author>
    sealed class TelResultParser : ResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null ||

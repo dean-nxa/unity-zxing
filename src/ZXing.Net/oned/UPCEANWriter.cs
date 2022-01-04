@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    ///   <p>Encapsulates functionality and implementation that is common to UPC and EAN families

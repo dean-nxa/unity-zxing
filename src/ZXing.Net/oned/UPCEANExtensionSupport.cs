@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    sealed class UPCEANExtensionSupport
    {

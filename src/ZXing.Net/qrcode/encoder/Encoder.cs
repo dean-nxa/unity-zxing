@@ -18,10 +18,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ZXing.Common;
-using ZXing.Common.ReedSolomon;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.ReedSolomon;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// </summary>

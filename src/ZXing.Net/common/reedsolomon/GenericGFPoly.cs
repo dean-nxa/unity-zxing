@@ -17,7 +17,7 @@
 using System;
 using System.Text;
 
-namespace ZXing.Common.ReedSolomon
+namespace Auki.Barcode.Common.ReedSolomon
 {
    /// <summary>
    /// <p>Represents a polynomial whose coefficients are elements of a GF.

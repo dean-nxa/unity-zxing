@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.OneD.RSS
+namespace Auki.Barcode.OneD.RSS
 {
    /// <summary>
    /// Encapsulates a since character value in an RSS barcode, including its checksum information.

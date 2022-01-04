@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2012 ZXing.Net authors
+ * Copyright 2012 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,10 +29,10 @@ using UnityEngine;
 using System.Drawing;
 #endif
 
-using ZXing.Common;
-using ZXing.OneD;
+using Auki.Barcode.Common;
+using Auki.Barcode.OneD;
 
-namespace ZXing.Rendering
+namespace Auki.Barcode.Rendering
 {
    /// <summary>
    /// Renders a barcode into a Svg image
@@ -387,7 +387,7 @@ namespace ZXing.Rendering
          internal void AddHeader()
          {
             content.Append("<?xml version=\"1.0\" standalone=\"no\"?>");
-            content.Append(@"<!-- Created with ZXing.Net (http://zxingnet.codeplex.com/) -->");
+            content.Append(@"<!-- Created with Auki.Barcode.Net (http://zxingnet.codeplex.com/) -->");
             content.Append("<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">");
          }
 

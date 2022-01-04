@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> Parses strings of digits that represent a ISBN.
    /// 
@@ -32,7 +32,7 @@ namespace ZXing.Client.Result
       /// </summary>
       /// <param name="result">The result.</param>
       /// <returns></returns>
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          BarcodeFormat format = result.BarcodeFormat;
          if (format != BarcodeFormat.EAN_13)

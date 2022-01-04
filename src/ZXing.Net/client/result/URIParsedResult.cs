@@ -17,7 +17,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// A simple result type encapsulating a URI that has no further interpretation.

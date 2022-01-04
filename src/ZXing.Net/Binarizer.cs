@@ -16,9 +16,9 @@
 
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary> This class hierarchy provides a set of methods to convert luminance data to 1 bit data.
    /// It allows the algorithm to vary polymorphically, for example allowing a very expensive

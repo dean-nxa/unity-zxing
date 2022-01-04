@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using ZXing;
+using Auki.Barcode;
 using UnityEngine.UI;
 
 public class ScanQRCode : MonoBehaviour 

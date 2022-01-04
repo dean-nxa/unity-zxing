@@ -17,7 +17,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Represents a result that encodes an e-mail address, either as a plain address
@@ -33,7 +33,7 @@ namespace ZXing.Client.Result
 );
 #endif
 
-      public override ParsedResult parse(ZXing.Result result)
+      public override ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null)

@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.OneD.RSS
+namespace Auki.Barcode.OneD.RSS
 {
    /// <summary>
    /// Encapsulates an RSS barcode finder pattern, including its start/end position and row.

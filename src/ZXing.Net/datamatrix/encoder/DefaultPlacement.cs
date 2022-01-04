@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Datamatrix.Encoder
+namespace Auki.Barcode.Datamatrix.Encoder
 {
    /// <summary>
    /// Symbol Character Placement Program. Adapted from Annex M.1 in ISO/IEC 16022:2000(E).

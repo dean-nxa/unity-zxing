@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing
+namespace Auki.Barcode
 {
 	/// <summary>
 	/// A base class which covers the range of exceptions which may occur when encoding a barcode using

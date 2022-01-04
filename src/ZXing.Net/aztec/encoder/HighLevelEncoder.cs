@@ -18,9 +18,9 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Aztec.Internal
+namespace Auki.Barcode.Aztec.Internal
 {
    /// <summary>
    /// This produces nearly optimal encodings of text into the first-level of

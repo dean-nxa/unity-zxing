@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2012 ZXing.Net authors
+ * Copyright 2012 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,10 +17,10 @@
 using System;
 using System.ComponentModel;
 using System.Globalization;
-using ZXing.Common;
-using ZXing.QrCode.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.QrCode.Internal;
 
-namespace ZXing.QrCode
+namespace Auki.Barcode.QrCode
 {
    /// <summary>
    /// The class holds the available options for the QrCodeWriter

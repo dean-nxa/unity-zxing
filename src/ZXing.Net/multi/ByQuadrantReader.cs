@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace ZXing.Multi
+namespace Auki.Barcode.Multi
 {
    /// <summary>
    /// This class attempts to decode a barcode from an image, not by scanning the whole image,

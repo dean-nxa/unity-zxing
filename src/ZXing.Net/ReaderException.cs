@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing
+namespace Auki.Barcode
 {
 	/// <summary>
 	/// The general exception class throw when something goes wrong during decoding of a barcode.

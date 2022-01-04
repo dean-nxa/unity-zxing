@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// <p>Encapsulates logic that can detect a PDF417 Code in an image, even if the

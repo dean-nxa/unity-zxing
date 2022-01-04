@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Encapsulates a type of hint that a caller may pass to a barcode reader to help it

@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Datamatrix.Internal
+namespace Auki.Barcode.Datamatrix.Internal
 {
    /// <summary>
    /// The Version object encapsulates attributes about a particular

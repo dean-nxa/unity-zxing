@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Aztec.Internal
+namespace Auki.Barcode.Aztec.Internal
 {
    /// <summary>
    /// Extends <see cref="DetectorResult" /> with more information specific to the Aztec format,

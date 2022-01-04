@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Thrown when a barcode was successfully detected, but some aspect of

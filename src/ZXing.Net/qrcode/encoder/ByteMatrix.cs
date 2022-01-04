@@ -17,7 +17,7 @@
 using System;
 using System.Text;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// JAVAPORT: The original code was a 2D array of ints, but since it only ever gets assigned

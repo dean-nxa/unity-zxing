@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// A simple result type encapsulating a string that has no further interpretation.

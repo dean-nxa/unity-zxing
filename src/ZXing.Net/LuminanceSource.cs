@@ -17,7 +17,7 @@
 using System;
 using System.Text;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// The purpose of this class hierarchy is to abstract different bitmap implementations across

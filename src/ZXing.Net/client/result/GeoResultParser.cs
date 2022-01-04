@@ -18,7 +18,7 @@ using System;
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> Parses a "geo:" URI result, which specifies a location on the surface of
    /// the Earth as well as an optional altitude above the surface. See
@@ -39,7 +39,7 @@ namespace ZXing.Client.Result
          , RegexOptions.IgnoreCase);
 #endif
 
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null)

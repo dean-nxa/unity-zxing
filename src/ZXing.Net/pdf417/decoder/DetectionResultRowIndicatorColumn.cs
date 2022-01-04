@@ -15,7 +15,7 @@
  */
 using System;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// Represents a Column in the Detection Result
@@ -30,7 +30,7 @@ namespace ZXing.PDF417.Internal
       public bool IsLeft { get; set; }
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ZXing.PDF417.Internal.DetectionResultRowIndicatorColumn"/> class.
+      /// Initializes a new instance of the <see cref="Auki.Barcode.PDF417.Internal.DetectionResultRowIndicatorColumn"/> class.
       /// </summary>
       /// <param name="box">Box.</param>
       /// <param name="isLeft">If set to <c>true</c> is left.</param>
@@ -366,9 +366,9 @@ namespace ZXing.PDF417.Internal
       }
 
       /// <summary>
-      /// Returns a <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.DetectionResultRowIndicatorColumn"/>.
+      /// Returns a <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.DetectionResultRowIndicatorColumn"/>.
       /// </summary>
-      /// <returns>A <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.DetectionResultRowIndicatorColumn"/>.</returns>
+      /// <returns>A <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.DetectionResultRowIndicatorColumn"/>.</returns>
       public override string ToString()
       {
          return "Is Left: " + IsLeft + " \n" + base.ToString();

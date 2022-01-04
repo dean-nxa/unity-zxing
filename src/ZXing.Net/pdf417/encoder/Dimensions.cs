@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// Data object to specify the minimum and maximum number of rows and columns for a PDF417 barcode.

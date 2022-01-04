@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> <p>Parses an "sms:" URI result, which specifies a number to SMS and optional
    /// "via" number. See <a href="http://gbiv.com/protocols/uri/drafts/draft-antti-gsm-sms-url-04.txt">
@@ -34,7 +34,7 @@ namespace ZXing.Client.Result
    /// </author>
    sealed class SMSMMSResultParser : ResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null ||

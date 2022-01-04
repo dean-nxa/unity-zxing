@@ -16,9 +16,9 @@
 
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Datamatrix.Internal
+namespace Auki.Barcode.Datamatrix.Internal
 {
    /// <summary>
    /// <author>bbrown@google.com (Brian Brown)</author>

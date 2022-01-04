@@ -17,10 +17,10 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.PDF417.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.PDF417.Internal;
 
-namespace ZXing.PDF417
+namespace Auki.Barcode.PDF417
 {
    /// <summary>
    /// <author>Jacob Haynes</author>

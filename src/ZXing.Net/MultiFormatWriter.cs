@@ -17,14 +17,14 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Aztec;
-using ZXing.Common;
-using ZXing.Datamatrix;
-using ZXing.OneD;
-using ZXing.PDF417;
-using ZXing.QrCode;
+using Auki.Barcode.Aztec;
+using Auki.Barcode.Common;
+using Auki.Barcode.Datamatrix;
+using Auki.Barcode.OneD;
+using Auki.Barcode.PDF417;
+using Auki.Barcode.QrCode;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary> This is a factory class which finds the appropriate Writer subclass for the BarcodeFormat
    /// requested and encodes the barcode with the supplied contents.

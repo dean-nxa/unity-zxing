@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace ZXing.Multi
+namespace Auki.Barcode.Multi
 {
    /// <summary>
    /// Implementation of this interface attempt to read several barcodes from one image.

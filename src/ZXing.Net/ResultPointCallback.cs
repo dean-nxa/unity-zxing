@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary> Callback which is invoked when a possible result point (significant
    /// point in the barcode image such as a corner) is found.

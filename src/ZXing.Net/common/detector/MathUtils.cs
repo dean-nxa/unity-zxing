@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Common.Detector
+namespace Auki.Barcode.Common.Detector
 {
    /// <summary>
    /// General math-related and numeric utility functions.

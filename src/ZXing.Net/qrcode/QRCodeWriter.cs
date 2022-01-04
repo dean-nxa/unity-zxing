@@ -17,10 +17,10 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.QrCode.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.QrCode.Internal;
 
-namespace ZXing.QrCode
+namespace Auki.Barcode.QrCode
 {
    /// <summary>
    /// This object renders a QR Code as a BitMatrix 2D array of greyscale values.

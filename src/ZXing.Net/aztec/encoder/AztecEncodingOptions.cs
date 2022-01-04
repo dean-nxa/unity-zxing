@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2013 ZXing.Net authors
+ * Copyright 2013 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,9 @@
 
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Aztec
+namespace Auki.Barcode.Aztec
 {
    /// <summary>
    /// The class holds the available options for the <see cref="AztecWriter" />

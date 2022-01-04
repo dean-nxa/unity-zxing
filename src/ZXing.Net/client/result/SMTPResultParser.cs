@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// <p>Parses an "smtp:" URI result, whose format is not standardized but appears to be like:
@@ -26,7 +26,7 @@ namespace ZXing.Client.Result
    /// <author>Sean Owen</author>
    public class SMTPResultParser : ResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (!(rawText.StartsWith("smtp:") || rawText.StartsWith("SMTP:")))

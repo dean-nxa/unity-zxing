@@ -17,7 +17,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Tries to parse results that are a URI of some kind.
@@ -42,7 +42,7 @@ namespace ZXing.Client.Result
 );
 #endif
 
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          // We specifically handle the odd "URL" scheme here for simplicity and add "URI" for fun

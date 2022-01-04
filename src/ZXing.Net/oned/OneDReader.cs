@@ -16,9 +16,9 @@
 
 using System;
 using System.Collections.Generic;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    /// Encapsulates functionality and implementation that is common to all families

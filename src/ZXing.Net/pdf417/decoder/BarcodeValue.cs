@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// A Barcode Value for the PDF417 barcode.  

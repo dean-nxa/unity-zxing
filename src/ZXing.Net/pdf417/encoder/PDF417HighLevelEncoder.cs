@@ -26,9 +26,9 @@ using BigIntegerLibrary;
 #endif
 using System.Text;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// PDF417 high-level encoder following the algorithm described in ISO/IEC 15438:2001(E) in

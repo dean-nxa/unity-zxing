@@ -15,9 +15,9 @@
 */
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary> <p>Encapsulates data masks for the data bits in a QR code, per ISO 18004:2006 6.8. Implementations
    /// of this class can un-mask a raw BitMatrix. For simplicity, they will unmask the entire BitMatrix,

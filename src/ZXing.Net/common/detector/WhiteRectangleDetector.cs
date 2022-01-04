@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Common.Detector
+namespace Auki.Barcode.Common.Detector
 {
    /// <summary>
    /// Detects a candidate barcode-like rectangular region within an image. It

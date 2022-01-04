@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD.RSS
+namespace Auki.Barcode.OneD.RSS
 {
    /// <summary>
    /// Decodes RSS-14, including truncated and stacked variants. See ISO/IEC 24724:2006.
@@ -251,7 +251,7 @@ namespace ZXing.OneD.RSS
          }
 
          int numModules = outsideChar ? 16 : 15;
-         float elementWidth = (float)ZXing.Common.Detector.MathUtils.sum(counters) / (float)numModules;
+         float elementWidth = (float)Auki.Barcode.Common.Detector.MathUtils.sum(counters) / (float)numModules;
 
          int[] oddCounts = this.getOddCounts();
          int[] evenCounts = this.getEvenCounts();
@@ -425,8 +425,8 @@ namespace ZXing.OneD.RSS
 
       private bool adjustOddEvenCounts(bool outsideChar, int numModules)
       {
-         int oddSum = ZXing.Common.Detector.MathUtils.sum(getOddCounts());
-         int evenSum = ZXing.Common.Detector.MathUtils.sum(getEvenCounts());
+         int oddSum = Auki.Barcode.Common.Detector.MathUtils.sum(getOddCounts());
+         int evenSum = Auki.Barcode.Common.Detector.MathUtils.sum(getEvenCounts());
          int mismatch = oddSum + evenSum - numModules;
          bool oddParityBad = (oddSum & 0x01) == (outsideChar ? 1 : 0);
          bool evenParityBad = (evenSum & 0x01) == 1;

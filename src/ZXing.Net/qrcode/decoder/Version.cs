@@ -16,9 +16,9 @@
 
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// See ISO 18004:2006 Annex D

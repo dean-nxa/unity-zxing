@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Datamatrix.Internal
+namespace Auki.Barcode.Datamatrix.Internal
 {
    /// <summary>
    /// <p>Data Matrix Codes can encode text as bits in one of several modes, and can use multiple modes

@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2014 ZXing.Net authors
+ * Copyright 2014 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ using BigIntegerLibrary;
 #endif
 using System.Text;
 
-using ZXing.Common;
-using ZXing.OneD;
+using Auki.Barcode.Common;
+using Auki.Barcode.OneD;
 
-namespace ZXing.IMB
+namespace Auki.Barcode.IMB
 {
    /// <summary>
    /// implements an Intelligent Mail barcode

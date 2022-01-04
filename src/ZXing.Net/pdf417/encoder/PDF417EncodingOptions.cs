@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2012 ZXing.Net authors
+ * Copyright 2012 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 
 using System;
 
-using ZXing.Common;
-using ZXing.PDF417.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.PDF417.Internal;
 
-namespace ZXing.PDF417
+namespace Auki.Barcode.PDF417
 {
    /// <summary>
    /// The class holds the available options for the <see cref="PDF417Writer" />

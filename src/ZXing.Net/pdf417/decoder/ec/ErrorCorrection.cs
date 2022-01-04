@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-namespace ZXing.PDF417.Internal.EC
+namespace Auki.Barcode.PDF417.Internal.EC
 {
    /// <summary>
    /// <p>PDF417 error correction implementation.</p>
    /// <p>This <a href="http://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction#Example">example</a>
    /// is quite useful in understanding the algorithm.</p>
    /// <author>Sean Owen</author>
-   /// <see cref="ZXing.Common.ReedSolomon.ReedSolomonDecoder" />
+   /// <see cref="Auki.Barcode.Common.ReedSolomon.ReedSolomonDecoder" />
    /// </summary>
    public sealed class ErrorCorrection
    {

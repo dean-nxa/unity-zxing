@@ -17,7 +17,7 @@
 using System;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Detects a result that is likely a vehicle identification number.
@@ -33,7 +33,7 @@ namespace ZXing.Client.Result
       private static readonly Regex AZ09 = new Regex(@"\A(?:" + "[A-Z0-9]{17}" + @")\z", RegexOptions.Compiled);
 #endif
 
-      public override ParsedResult parse(ZXing.Result result)
+      public override ParsedResult parse(Auki.Barcode.Result result)
       {
          try
          {

@@ -17,11 +17,11 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Multi;
-using ZXing.PDF417.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.Multi;
+using Auki.Barcode.PDF417.Internal;
 
-namespace ZXing.PDF417
+namespace Auki.Barcode.PDF417
 {
    /// <summary>
    /// This implementation can detect and decode PDF417 codes in an image.
@@ -99,7 +99,7 @@ namespace ZXing.PDF417
 
       /// <summary>
       /// Decode the specified image, with the hints and optionally multiple barcodes.
-      /// Based on Owen's Comments in <see cref="ZXing.ReaderException"/>, this method has been modified to continue silently
+      /// Based on Owen's Comments in <see cref="Auki.Barcode.ReaderException"/>, this method has been modified to continue silently
       /// if a barcode was not decoded where it was detected instead of throwing a new exception object.
       /// </summary>
       /// <param name="image">Image.</param>

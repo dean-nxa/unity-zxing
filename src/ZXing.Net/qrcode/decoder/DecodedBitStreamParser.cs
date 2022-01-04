@@ -18,9 +18,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary> <p>QR Codes can encode text as bits in one of several modes, and can use multiple modes
    /// in one QR Code. This class decodes the bits back into text.</p>

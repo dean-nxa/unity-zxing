@@ -28,7 +28,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Parses strings of digits that represent a RSS Extended code.
@@ -42,7 +42,7 @@ namespace ZXing.Client.Result
       /// </summary>
       /// <param name="result"></param>
       /// <returns></returns>
-      public override ParsedResult parse(ZXing.Result result)
+      public override ParsedResult parse(Auki.Barcode.Result result)
       {
          BarcodeFormat format = result.BarcodeFormat;
          if (format != BarcodeFormat.RSS_EXPANDED)

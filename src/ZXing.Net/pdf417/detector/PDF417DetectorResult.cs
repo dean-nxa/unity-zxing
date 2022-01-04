@@ -16,9 +16,9 @@
 
 using System.Collections.Generic;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// PDF 417 Detector Result class.  Skipped private backing stores.
@@ -30,7 +30,7 @@ namespace ZXing.PDF417.Internal
       public List<ResultPoint[]> Points { get; private set; }
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ZXing.PDF417.Internal.PDF417DetectorResult"/> class.
+      /// Initializes a new instance of the <see cref="Auki.Barcode.PDF417.Internal.PDF417DetectorResult"/> class.
       /// </summary>
       /// <param name="bits">Bits.</param>
       /// <param name="points">Points.</param>

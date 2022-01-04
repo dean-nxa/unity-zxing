@@ -13,7 +13,6 @@ using System.Text;
 
 namespace BigIntegerLibrary
 {
-    
     /// <summary>
     /// .NET 2.0 class for handling of very large integers, up to 10240 binary digits or
     /// approximately (safe to use) 3000 decimal digits.
@@ -31,7 +30,7 @@ namespace BigIntegerLibrary
     {
 
         #region Fields
-        
+
         /// <summary>
         /// 2^16 numeration base for internal computations, in order to benefit the most from the
         /// 32 bit (or 64 bit) integer processor registers.

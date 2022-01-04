@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.Datamatrix.Encoder
+namespace Auki.Barcode.Datamatrix.Encoder
 {
    internal interface Encoder
    {

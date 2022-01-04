@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> Implements the "BIZCARD" address book entry format, though this has been
    /// largely reverse-engineered from examples observed in the wild -- still
@@ -34,7 +34,7 @@ namespace ZXing.Client.Result
       // like the DoCoMo MECARD format, but this is not technically one of 
       // DoCoMo's proposed formats
 
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null || !rawText.StartsWith("BIZCARD:"))

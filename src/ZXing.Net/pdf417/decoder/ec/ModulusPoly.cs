@@ -17,10 +17,10 @@
 using System;
 using System.Text;
 
-namespace ZXing.PDF417.Internal.EC
+namespace Auki.Barcode.PDF417.Internal.EC
 {
    /// <summary>
-    /// <see cref="ZXing.Common.ReedSolomon.GenericGFPoly"/>
+    /// <see cref="Auki.Barcode.Common.ReedSolomon.GenericGFPoly"/>
    /// </summary>
    /// <author>Sean Owen</author>
    internal sealed class ModulusPoly
@@ -321,9 +321,9 @@ namespace ZXing.PDF417.Internal.EC
       */
 
       /// <summary>
-      /// Returns a <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.EC.ModulusPoly"/>.
+      /// Returns a <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.EC.ModulusPoly"/>.
       /// </summary>
-      /// <returns>A <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.EC.ModulusPoly"/>.</returns>
+      /// <returns>A <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.EC.ModulusPoly"/>.</returns>
       public override String ToString()
       {
          var result = new StringBuilder(8 * Degree);

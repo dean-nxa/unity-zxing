@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
 
    /// <author>  Sean Owen

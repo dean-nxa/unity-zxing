@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.Aztec.Internal
+namespace Auki.Barcode.Aztec.Internal
 {
    /// <summary>
    /// State represents all information about a sequence necessary to generate the current output.

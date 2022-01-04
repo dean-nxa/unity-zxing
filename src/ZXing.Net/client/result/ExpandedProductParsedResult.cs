@@ -27,7 +27,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Represents a parsed result that encodes extended product information as encoded by the RSS format, like weight, price, dates, etc.

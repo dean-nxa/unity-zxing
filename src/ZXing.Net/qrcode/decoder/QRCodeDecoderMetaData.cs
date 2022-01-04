@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// Meta-data container for QR Code decoding. Instances of this class may be used to convey information back to the

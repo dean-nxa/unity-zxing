@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Encapsulates the result of decoding a barcode within an image.

@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.Common.ReedSolomon
+namespace Auki.Barcode.Common.ReedSolomon
 {
    /// <summary>
    /// Implements Reed-Solomon encoding, as the name implies.

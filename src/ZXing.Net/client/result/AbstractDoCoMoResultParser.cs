@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> <p>See
    /// <a href="http://www.nttdocomo.co.jp/english/service/imode/make/content/barcode/about/s2.html">

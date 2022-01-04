@@ -18,9 +18,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    ///   <p>Encapsulates functionality and implementation that is common to UPC and EAN families
@@ -147,7 +147,7 @@ namespace ZXing.OneD
       }
 
       /// <summary>
-      ///   <p>Like <see cref="decodeRow(int,ZXing.Common.BitArray,System.Collections.Generic.IDictionary{ZXing.DecodeHintType,object})"/>, but
+      ///   <p>Like <see cref="decodeRow(int,Auki.Barcode.Common.BitArray,System.Collections.Generic.IDictionary{Auki.Barcode.DecodeHintType,object})"/>, but
       /// allows caller to inform method about where the UPC/EAN start pattern is
       /// found. This allows this to be computed once and reused across many implementations.</p>
       /// </summary>

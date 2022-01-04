@@ -16,10 +16,10 @@
 
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Datamatrix.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.Datamatrix.Internal;
 
-namespace ZXing.Datamatrix
+namespace Auki.Barcode.Datamatrix
 {
    /// <summary>
    /// This implementation can detect and decode Data Matrix codes in an image.
@@ -100,7 +100,7 @@ namespace ZXing.Datamatrix
       /// around it. This is a specialized method that works exceptionally fast in this special
       /// case.
       ///
-      /// <seealso cref="ZXing.QrCode.QRCodeReader.extractPureBits(BitMatrix)" />
+      /// <seealso cref="Auki.Barcode.QrCode.QRCodeReader.extractPureBits(BitMatrix)" />
       /// </summary>
       private static BitMatrix extractPureBits(BitMatrix image)
       {

@@ -21,7 +21,7 @@
 using System;
 using System.Text;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// Top-level class for the logic part of the PDF417 implementation.

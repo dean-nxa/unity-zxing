@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> Implements the "MECARD" address book entry format.
    /// 
@@ -37,7 +37,7 @@ namespace ZXing.Client.Result
    /// </author>
    sealed class AddressBookDoCoMoResultParser : AbstractDoCoMoResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          String rawText = result.Text;
          if (rawText == null || !rawText.StartsWith("MECARD:"))

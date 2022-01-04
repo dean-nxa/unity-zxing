@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// <p>This class attempts to find finder patterns in a QR Code. Finder patterns are the square

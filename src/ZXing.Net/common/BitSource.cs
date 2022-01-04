@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary> <p>This provides an easy abstraction to read bits at a time from a sequence of bytes, where the
    /// number of bits read is not often a multiple of 8.</p>

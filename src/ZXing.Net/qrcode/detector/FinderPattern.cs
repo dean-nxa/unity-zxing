@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// <p>Encapsulates a finder pattern, which are the three square patterns found in

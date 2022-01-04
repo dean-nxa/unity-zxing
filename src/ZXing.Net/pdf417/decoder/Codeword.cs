@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// A Codeword in the PDF417 barcode
@@ -34,7 +34,7 @@ namespace ZXing.PDF417.Internal
       public int RowNumber { get; set; }
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ZXing.PDF417.Internal.Codeword"/> class.
+      /// Initializes a new instance of the <see cref="Auki.Barcode.PDF417.Internal.Codeword"/> class.
       /// </summary>
       /// <param name="startX">Start x.</param>
       /// <param name="endX">End x.</param>
@@ -86,9 +86,9 @@ namespace ZXing.PDF417.Internal
       }
 
       /// <summary>
-      /// Returns a <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.Codeword"/>.
+      /// Returns a <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.Codeword"/>.
       /// </summary>
-      /// <returns>A <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.Codeword"/>.</returns>
+      /// <returns>A <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.Codeword"/>.</returns>
       public override string ToString()
       {
          return RowNumber + "|" + Value;

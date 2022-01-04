@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    ///   <p>Encapsulates functionality and implementation that is common to one-dimensional barcodes.</p>

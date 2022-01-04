@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.OneD.RSS
+namespace Auki.Barcode.OneD.RSS
 {
    internal sealed class Pair : DataCharacter
    {

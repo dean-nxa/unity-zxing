@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary>
    /// Encapsulates the result of decoding a matrix of bits. This typically

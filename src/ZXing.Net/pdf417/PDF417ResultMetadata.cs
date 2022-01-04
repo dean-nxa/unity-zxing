@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.PDF417
+namespace Auki.Barcode.PDF417
 {
    /// <summary>
    /// PDF 417 result meta data.

@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary> <p>Encapsulates a block of data within a QR Code. QR Codes may split their data into
    /// multiple blocks, each of which is a unit of data and error-correction codewords. Each

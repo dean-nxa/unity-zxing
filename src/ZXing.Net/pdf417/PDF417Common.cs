@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace ZXing.PDF417
+namespace Auki.Barcode.PDF417
 {
    /// <summary>
    /// <author>SITA Lab (kevin.osullivan@sita.aero) </author>
@@ -57,7 +57,7 @@ namespace ZXing.PDF417
       [System.Obsolete]
       public static int getBitCountSum(int[] moduleBitCount)
       {
-         return ZXing.Common.Detector.MathUtils.sum(moduleBitCount);
+         return Auki.Barcode.Common.Detector.MathUtils.sum(moduleBitCount);
       }
 
       /// <summary>

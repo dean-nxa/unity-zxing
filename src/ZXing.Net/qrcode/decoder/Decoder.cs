@@ -16,10 +16,10 @@
 
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Common.ReedSolomon;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.ReedSolomon;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    ///   <p>The main class which implements QR Code decoding -- as opposed to locating and extracting

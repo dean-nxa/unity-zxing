@@ -14,9 +14,9 @@
 * limitations under the License.
 */
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <author>Sean Owen</author>
    sealed class BitMatrixParser

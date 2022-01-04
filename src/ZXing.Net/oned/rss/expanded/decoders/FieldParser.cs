@@ -27,7 +27,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.OneD.RSS.Expanded.Decoders
+namespace Auki.Barcode.OneD.RSS.Expanded.Decoders
 {
    /// <summary>
    /// <author>Pablo Orduña, University of Deusto (pablo.orduna@deusto.es)</author>

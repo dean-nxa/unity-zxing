@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
 
    /// <summary> <p>Encapsulates a QR Code's format information, including the data mask used and

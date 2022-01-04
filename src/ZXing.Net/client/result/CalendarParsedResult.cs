@@ -19,7 +19,7 @@ using System.Globalization;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Represents a parsed result that encodes a calendar event at a certain time, optionally with attendees and a location.

@@ -17,12 +17,12 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Multi.QrCode.Internal;
-using ZXing.QrCode;
-using ZXing.QrCode.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.Multi.QrCode.Internal;
+using Auki.Barcode.QrCode;
+using Auki.Barcode.QrCode.Internal;
 
-namespace ZXing.Multi.QrCode
+namespace Auki.Barcode.Multi.QrCode
 {
    /// <summary>
    /// This implementation can detect and decode multiple QR Codes in an image.

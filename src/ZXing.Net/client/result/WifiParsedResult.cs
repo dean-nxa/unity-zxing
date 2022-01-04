@@ -17,7 +17,7 @@
 using System;
 using System.Text;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// Represents a parsed result that encodes wifi network information, like SSID and password.

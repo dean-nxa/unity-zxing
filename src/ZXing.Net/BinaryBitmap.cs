@@ -15,9 +15,9 @@
 */
 
 using System;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// This class is the core bitmap class used by ZXing to represent 1 bit data. Reader objects

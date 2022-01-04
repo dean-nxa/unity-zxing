@@ -17,7 +17,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// Represents a Column in the Detection Result
@@ -46,7 +46,7 @@ namespace ZXing.PDF417.Internal
       // TODO convert this to a dictionary? Dictionary<imageRow, Codeword> ??
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ZXing.PDF417.Internal.DetectionResultColumn"/> class.
+      /// Initializes a new instance of the <see cref="Auki.Barcode.PDF417.Internal.DetectionResultColumn"/> class.
       /// </summary>
       /// <param name="box">The Bounding Box around the column (in the BitMatrix)</param>
       public DetectionResultColumn(BoundingBox box)
@@ -136,9 +136,9 @@ namespace ZXing.PDF417.Internal
       }
 
       /// <summary>
-      /// Returns a <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.DetectionResultColumn"/>.
+      /// Returns a <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.DetectionResultColumn"/>.
       /// </summary>
-      /// <returns>A <see cref="System.String"/> that represents the current <see cref="ZXing.PDF417.Internal.DetectionResultColumn"/>.</returns>
+      /// <returns>A <see cref="System.String"/> that represents the current <see cref="Auki.Barcode.PDF417.Internal.DetectionResultColumn"/>.</returns>
       public override string ToString()
       {
          StringBuilder builder = new StringBuilder();

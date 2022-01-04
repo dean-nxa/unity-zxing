@@ -25,9 +25,9 @@
  */
 
 using System.Collections.Generic;
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD.RSS.Expanded
+namespace Auki.Barcode.OneD.RSS.Expanded
 {
    /// <summary>
    /// <author>Pablo Orduña, University of Deusto (pablo.orduna@deusto.es)</author>

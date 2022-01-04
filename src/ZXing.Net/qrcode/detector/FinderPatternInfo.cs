@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// <p>Encapsulates information about finder patterns in an image, including the location of

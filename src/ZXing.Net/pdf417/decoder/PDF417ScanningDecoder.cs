@@ -19,10 +19,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 
-using ZXing.Common;
-using ZXing.PDF417.Internal.EC;
+using Auki.Barcode.Common;
+using Auki.Barcode.PDF417.Internal.EC;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// 
@@ -79,7 +79,7 @@ namespace ZXing.PDF417.Internal
             detectionResult = merge(leftRowIndicatorColumn, rightRowIndicatorColumn);
             if (detectionResult == null)
             {
-               // TODO Based on Owen's Comments in <see cref="ZXing.ReaderException"/>, this method has been modified to continue silently
+               // TODO Based on Owen's Comments in <see cref="Auki.Barcode.ReaderException"/>, this method has been modified to continue silently
                // if a barcode was not decoded where it was detected instead of throwing a new exception object.
                return null;
             }
@@ -589,7 +589,7 @@ namespace ZXing.PDF417.Internal
             return null;
          }
          int endColumn;
-         int codewordBitCount = ZXing.Common.Detector.MathUtils.sum(moduleBitCount);
+         int codewordBitCount = Auki.Barcode.Common.Detector.MathUtils.sum(moduleBitCount);
          if (leftToRight)
          {
             endColumn = startColumn + codewordBitCount;
@@ -888,9 +888,9 @@ namespace ZXing.PDF417.Internal
       }
 
       /// <summary>
-      /// Returns a <see cref="System.String"/> that represents the <see cref="ZXing.PDF417.Internal.BarcodeValue"/> jagged array.
+      /// Returns a <see cref="System.String"/> that represents the <see cref="Auki.Barcode.PDF417.Internal.BarcodeValue"/> jagged array.
       /// </summary>
-      /// <returns>A <see cref="System.String"/> that represents the <see cref="ZXing.PDF417.Internal.BarcodeValue"/> jagged array.</returns>
+      /// <returns>A <see cref="System.String"/> that represents the <see cref="Auki.Barcode.PDF417.Internal.BarcodeValue"/> jagged array.</returns>
       /// <param name="barcodeMatrix">Barcode matrix as a jagged array.</param>
       public static String ToString(BarcodeValue[][] barcodeMatrix)
       {

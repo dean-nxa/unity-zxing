@@ -23,9 +23,9 @@ using System.Numerics;
 using BigIntegerLibrary;
 #endif
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// <p>This class contains the methods for decoding the PDF417 codewords.</p>

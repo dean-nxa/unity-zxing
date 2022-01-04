@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    internal sealed class BlockPair
    {

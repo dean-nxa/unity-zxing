@@ -18,10 +18,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using ZXing.Common;
-using ZXing.Common.ReedSolomon;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.ReedSolomon;
 
-namespace ZXing.Aztec.Internal
+namespace Auki.Barcode.Aztec.Internal
 {
    /// <summary>
    /// The main class which implements Aztec Code decoding -- as opposed to locating and extracting

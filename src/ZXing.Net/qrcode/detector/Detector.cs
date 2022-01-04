@@ -17,10 +17,10 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Common.Detector;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.Detector;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary>
    /// <p>Encapsulates logic that can detect a QR Code in an image, even if the QR Code

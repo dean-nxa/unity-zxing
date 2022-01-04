@@ -16,7 +16,7 @@
 
 using System.Collections.Generic;
 
-namespace ZXing.Multi
+namespace Auki.Barcode.Multi
 {
    /// <summary>
    ///   <p>Attempts to locate multiple barcodes in an image by repeatedly decoding portion of the image.

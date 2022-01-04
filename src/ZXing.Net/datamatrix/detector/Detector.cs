@@ -17,10 +17,10 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Common.Detector;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.Detector;
 
-namespace ZXing.Datamatrix.Internal
+namespace Auki.Barcode.Datamatrix.Internal
 {
    /// <summary>
    /// <p>Encapsulates logic that can detect a Data Matrix Code in an image, even if the Data Matrix Code

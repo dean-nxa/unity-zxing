@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.OneD.RSS
+namespace Auki.Barcode.OneD.RSS
 {
    /// <summary>
    /// Adapted from listings in ISO/IEC 24724 Appendix B and Appendix G.

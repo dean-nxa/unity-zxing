@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Datamatrix.Encoder
+namespace Auki.Barcode.Datamatrix.Encoder
 {
    internal sealed class ASCIIEncoder : Encoder
    {

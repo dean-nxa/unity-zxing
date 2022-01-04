@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.QrCode.Internal
+namespace Auki.Barcode.QrCode.Internal
 {
    /// <summary> <p>Encapsulates an alignment pattern, which are the smaller square patterns found in
    /// all but the simplest QR Codes.</p>

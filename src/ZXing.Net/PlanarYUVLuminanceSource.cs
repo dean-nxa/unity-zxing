@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// This object extends LuminanceSource around an array of YUV data returned from the camera driver,

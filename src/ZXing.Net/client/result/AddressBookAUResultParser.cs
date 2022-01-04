@@ -17,7 +17,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary> Implements KDDI AU's address book format. See
    /// <a href="http://www.au.kddi.com/ezfactory/tec/two_dimensions/index.html">
@@ -31,7 +31,7 @@ namespace ZXing.Client.Result
    /// </author>
    sealed class AddressBookAUResultParser : ResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          var rawText = result.Text;
          // MEMORY is mandatory; seems like a decent indicator, as does end-of-record separator CR/LF

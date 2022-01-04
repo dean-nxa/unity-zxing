@@ -16,11 +16,11 @@
 
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.OneD.RSS;
-using ZXing.OneD.RSS.Expanded;
+using Auki.Barcode.Common;
+using Auki.Barcode.OneD.RSS;
+using Auki.Barcode.OneD.RSS.Expanded;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    /// <author>dswitkin@google.com (Daniel Switkin)</author>

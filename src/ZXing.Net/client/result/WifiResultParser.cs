@@ -16,7 +16,7 @@
 
 using System;
 
-namespace ZXing.Client.Result
+namespace Auki.Barcode.Client.Result
 {
    /// <summary>
    /// <p>Parses a WIFI configuration string. Strings will be of the form:</p>
@@ -28,10 +28,10 @@ namespace ZXing.Client.Result
    /// </summary>
    /// <author>Vikram Aggarwal</author>
    /// <author>Sean Owen</author>
-   /// <author>Steffen Kieß</author>
+   /// <author>Steffen Kieï¿½</author>
    public class WifiResultParser : ResultParser
    {
-      override public ParsedResult parse(ZXing.Result result)
+      override public ParsedResult parse(Auki.Barcode.Result result)
       {
          var rawText = result.Text;
          if (!rawText.StartsWith("WIFI:"))

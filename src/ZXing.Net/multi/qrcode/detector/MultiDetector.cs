@@ -15,10 +15,10 @@
  */
 
 using System.Collections.Generic;
-using ZXing.Common;
-using ZXing.QrCode.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.QrCode.Internal;
 
-namespace ZXing.Multi.QrCode.Internal
+namespace Auki.Barcode.Multi.QrCode.Internal
 {
    /// <summary>
    /// <p>Encapsulates logic that can detect one or more QR Codes in an image, even if the QR Code

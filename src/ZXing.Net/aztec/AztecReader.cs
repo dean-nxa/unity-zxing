@@ -16,10 +16,10 @@
 
 using System.Collections.Generic;
 
-using ZXing.Common;
-using ZXing.Aztec.Internal;
+using Auki.Barcode.Common;
+using Auki.Barcode.Aztec.Internal;
 
-namespace ZXing.Aztec
+namespace Auki.Barcode.Aztec
 {
    /// <summary>
    /// This implementation can detect and decode Aztec codes in an image.

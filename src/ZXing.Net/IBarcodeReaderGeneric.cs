@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2012 ZXing.Net authors
+ * Copyright 2012 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,9 +16,9 @@
 
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Interface for a smart class to decode the barcode inside a bitmap object

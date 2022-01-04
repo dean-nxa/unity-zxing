@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing.Aztec
+namespace Auki.Barcode.Aztec
 {
    /// <summary>
    /// Aztec result meta data.

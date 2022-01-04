@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Represents some type of metadata about the result of the decoding that the decoder

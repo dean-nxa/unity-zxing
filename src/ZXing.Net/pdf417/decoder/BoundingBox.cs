@@ -15,9 +15,9 @@
  */
 using System;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.PDF417.Internal
+namespace Auki.Barcode.PDF417.Internal
 {
    /// <summary>
    /// A Bounding Box helper class
@@ -38,7 +38,7 @@ namespace ZXing.PDF417.Internal
       public int MaxY { get; private set; }
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ZXing.PDF417.Internal.BoundingBox"/> class.
+      /// Initializes a new instance of the <see cref="Auki.Barcode.PDF417.Internal.BoundingBox"/> class.
       /// returns null if the corner points don't match up correctly
       /// </summary>
       /// <param name="image">The image.</param>
@@ -75,7 +75,7 @@ namespace ZXing.PDF417.Internal
       }
 
       /// <summary>
-      /// Initializes a new instance of the <see cref="ZXing.PDF417.Internal.BoundingBox"/> class.
+      /// Initializes a new instance of the <see cref="Auki.Barcode.PDF417.Internal.BoundingBox"/> class.
       /// Will throw an exception if the corner points don't match up correctly
       /// </summary>
       /// <param name="image">Image.</param>

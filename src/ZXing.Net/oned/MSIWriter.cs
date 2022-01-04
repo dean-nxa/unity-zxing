@@ -1,5 +1,5 @@
 ﻿/*
- * Copyright 2013 ZXing.Net authors
+ * Copyright 2013 Auki.Barcode.Net authors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,9 +17,9 @@
 using System;
 using System.Collections.Generic;
 
-using ZXing.Common;
+using Auki.Barcode.Common;
 
-namespace ZXing.OneD
+namespace Auki.Barcode.OneD
 {
    /// <summary>
    /// This object renders a MSI code as a <see cref="BitMatrix"/>.

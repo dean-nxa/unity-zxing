@@ -18,7 +18,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ZXing.Common
+namespace Auki.Barcode.Common
 {
    /// <summary>
    /// Common string-related functions.

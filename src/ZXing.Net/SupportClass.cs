@@ -13,7 +13,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ZXing
+namespace Auki.Barcode
 {
    /// <summary>
    /// Contains conversion support elements such as classes, interfaces and static methods.

@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-namespace ZXing.Common.ReedSolomon
+namespace Auki.Barcode.Common.ReedSolomon
 {
    /// <summary> <p>Implements Reed-Solomon decoding, as the name implies.</p>
    /// 

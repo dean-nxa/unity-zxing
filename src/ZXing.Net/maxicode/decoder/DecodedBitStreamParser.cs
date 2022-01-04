@@ -16,10 +16,10 @@
 
 using System;
 using System.Text;
-using ZXing.QrCode.Internal;
-using ZXing.Common;
+using Auki.Barcode.QrCode.Internal;
+using Auki.Barcode.Common;
 
-namespace ZXing.Maxicode.Internal
+namespace Auki.Barcode.Maxicode.Internal
 {
    /// <summary>
    /// <p>MaxiCodes can encode text or structured information as bits in one of several modes,

@@ -16,10 +16,10 @@
 
 using System;
 
-using ZXing.Common;
-using ZXing.Common.ReedSolomon;
+using Auki.Barcode.Common;
+using Auki.Barcode.Common.ReedSolomon;
 
-namespace ZXing.Aztec.Internal
+namespace Auki.Barcode.Aztec.Internal
 {
    /// <summary>
    /// Generates Aztec 2D barcodes.
